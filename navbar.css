@@ -24,6 +24,9 @@ ul{
     align-items: center;
 }
 
+.nav-links{
+    display: none;
+}
 
 .nav-links.active{
     display: flex;
@@ -40,20 +43,4 @@ li:hover{
 .toggler{
     position: absolute;
     right: 20px ;
-}
-@media screen and (max-width:500px){
-    nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
-    ul{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-    }
-    .toggler{
-        display: none;
-    }
 }
