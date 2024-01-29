@@ -61,13 +61,13 @@
     flex-direction: column;
     gap: 10px;
     box-shadow: 8px 8px 8px rgba(160, 160, 161, 0.966);
-    height: 50%;
+    height: 45%;
 }
 .teams{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: auto;
+    height: 45%;
 }
 p{
     font-size: 1 rem;
