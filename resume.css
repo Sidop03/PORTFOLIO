@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 70vw;
+    display: flex;
+    gap: 10px;
+    flex-direction:row;
+    margin-inline: auto;
+}
+.left-section{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(160, 160, 161, 0.966);
+}
+.right-section{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(160, 160, 161, 0.966);
+}
+.imagebox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.imagebox img{
+    width: 100%;
+}
+.img-text{
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+    color: #000000;
+}
+.left-section i{
+    color: rgba(6, 170, 55, 0.726);
+}
+.right-section i{
+    color: rgba(6, 170, 55, 0.726);
+    height: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.progress-bar{
+    width: 90%;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+.progress{
+    background-color: rgba(6, 170, 55, 0.726);
+    color: white;
+    text-align: center;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 8px 8px 8px rgba(160, 160, 161, 0.966);
+    height: 50%;
+}
+.teams{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+}
+p{
+    font-size: 1 rem;
+    color: #888;
+}
+h3{
+    font-weight: normal;
+    color: #888;
+}
+a{
+    color: #000;
+}
+a:visited{
+    color: #000;
+}

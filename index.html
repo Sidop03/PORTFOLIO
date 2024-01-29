@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+            position: relative;
+            background-image: url("https://media.istockphoto.com/id/493213684/photo/young-man-with-resume.jpg?s=612x612&w=0&k=20&c=LUPfs1MuB_6iJjVhLZ9Uu7r35OloNPn3d1yzOeuTbPM=");
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+            opacity: 0.7;
+        }
+        .section{
+            display: flex;
+            width: 100%;
+            position: absolute;
+            flex-direction: column;
+            font-size: 1.25rem;
+            color: rgb(7, 7, 7);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <header><a href="#">
+            <h2>Siddhant's Portfolio</h2>
+            </a>
+        </header>
+        <div class="toggler" id="toggler">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="https://github.com/Sidop03" target="_blank">Github</a></li>
+            <li><a href="resume.html" target="_blank">Resume</a></li>
+            <li><a href="My hobbies.docx" target="_blank">Description</a></li>
+            <li><a href="mailto:siddhant.vyas2022@vitstudent.ac.in" target="_blank">E-Mail</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <article>
+                Hi I am Siddhant Vyas presenting a compelling portfolio encapsulating a rich blend of academic excellence and practical accomplishments. This meticulously crafted collection showcases a repertoire of coding projects, collaborative endeavors, and a commitment to innovation. From web development to problem-solving initiatives, the portfolio illustrates Siddhant's adeptness in diverse technologies and his passion for addressing real-world challenges. Each project reflects a journey of continuous learning, contributing to a dynamic and versatile skill set. Siddhant Vyas's portfolio stands as a testament to his commitment to growth and his ability to make meaningful contributions in the realm of software engineering.
+
+            </article>
+        </div>
+    </div>
+    <script src="navbar.js"></script>
+</body>
+</html>
